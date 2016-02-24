@@ -1,0 +1,14 @@
+{
+  "name": "hire-me",
+  "version": "1.0.0",
+  "description": "Awesome Due Date Calculator",
+  "main": "./src/dueDateCalculator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Marton Papp",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-cli": "^0.8.2"
+  }
+}
