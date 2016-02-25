@@ -3,7 +3,7 @@ const SUNDAY = 0;
 const WORKDAY_START_HOUR = 9;
 const WORKDAY_END_HOUR = 17;
 
-isDateTimeInWorkingHours = dateTime => {
+function isDateTimeInWorkingHours(dateTime) {
   const dateTimeHour = dateTime.getHours();
   const dateTimeDay = dateTime.getDay();
 

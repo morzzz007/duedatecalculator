@@ -1,7 +1,7 @@
 const DueDateHelpers = require('./dueDateHelpers');
 const MINUTE = 60000;
 
-calculateNextDateTime = currentDateTime => {
+function calculateNextDateTime(currentDateTime) {
   const nextDateTime = new Date(currentDateTime);
   nextDateTime.setTime(nextDateTime.getTime() + MINUTE);
 

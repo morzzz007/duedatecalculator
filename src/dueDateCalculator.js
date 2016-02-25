@@ -1,7 +1,7 @@
 const DueDateHelpers = require('./dueDateHelpers');
 const NextDateTimeCalculator = require('./nextDateTimeCalculator');
 
-calculateDueDate = (submitDate, turnaroundTime) => {
+function calculateDueDate(submitDate, turnaroundTime) {
   var resultDate = new Date(submitDate);
 
   if (typeof submitDate === 'undefined' || typeof turnaroundTime === 'undefined') {
