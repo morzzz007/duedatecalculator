@@ -9,7 +9,7 @@ function isDateTimeInWorkingHours(dateTime) {
 
   if (dateTimeDay === SATURDAY || dateTimeDay === SUNDAY) return false;
   return dateTimeHour >= WORKDAY_START_HOUR && dateTimeHour < WORKDAY_END_HOUR;
-};
+}
 
 module.exports = {
   SATURDAY,

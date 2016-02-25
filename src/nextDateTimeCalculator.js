@@ -16,7 +16,7 @@ function calculateNextDateTime(currentDateTime) {
   }
 
   return nextDateTime;
-};
+}
 
 module.exports = {
   calculateNextDateTime,

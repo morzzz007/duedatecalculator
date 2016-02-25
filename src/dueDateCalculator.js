@@ -17,7 +17,7 @@ function calculateDueDate(submitDate, turnaroundTime) {
   }
 
   return resultDate;
-};
+}
 
 module.exports = {
   calculateDueDate,
